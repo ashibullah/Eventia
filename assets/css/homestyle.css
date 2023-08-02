@@ -1,0 +1,214 @@
+.logo {
+    width: 120px
+}
+
+.l2 {
+    width: 200px;
+}
+
+.carousel-item {
+    height: 90vh;
+    /* Adjust the height as per your requirement */
+    min-height: 300px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    height: 30%;
+}
+
+
+.dp {
+    height: 150px;
+    clip-path: circle(35% at 50% 50%);
+}
+
+p{
+    font-size: small;
+}
+
+.pngdp {
+
+    max-width: 200px;
+
+}
+
+
+
+.works {
+    padding: 40px 200px;
+
+
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 200px;
+    /* border: 2px solid red; */
+
+}
+
+.profile {
+    /* border: 2px solid blue; */
+    height: 350px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.social {
+    padding: 10px;
+}
+
+.picdet {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+.picdet workimg {
+    width: 300px;
+}
+
+.work {
+    padding: 40px;
+    background-color: black;
+}
+
+.picdetails {
+    padding: 20px;
+}
+
+.picdetails p {
+    color: white;
+    font-size: small;
+}
+
+.picdetails h4 {
+    color: white;
+    font-size: medium
+}
+
+.footerdesign {
+    margin: 0;
+    padding: 80px;
+    background-image: url(../../img/lens.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lfoot {
+    text-align: right;
+}
+
+
+
+/* media  */
+@media screen and (max-width: 1250px) {
+    .profile{
+        min-height: 400px;
+    }
+    .members {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: none;
+    }
+
+
+}
+@media screen and (max-width: 770px) {
+    .profile {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: none;
+    }
+
+
+}
+@media screen and (max-width: 430px) {
+    .profile {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: none;
+    }
+
+
+}
+
+.showmore{
+
+    height: 50px;
+    /* width: 20px; */
+    padding: 5px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    /* text-align: center; */
+
+}
+.showmore a:hover, .showmore:hover {
+    background-color: rgb(210, 210, 210);
+
+   
+}
+
+
+
+
+.pageprofile{
+
+    height: 350px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+
+
+    
+
+}
+.peopleprofile{
+
+    height: 150px;
+    padding: 2px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    
+
+}
+.pageprofile img{
+
+    
+        width: 150px; /* Adjust the width to your desired size */
+        height: 150px; /* Adjust the height to your desired size */
+        object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+
+
+}
+.profileholder{
+
+    padding: 50px;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .content-container {
+    margin-bottom: 60px; /* Adjust the value as per your preference */
+}
