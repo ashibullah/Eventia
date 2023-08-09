@@ -110,6 +110,8 @@ function createUser($data)/*creating user */{
     $lname = $_POST["lname"];
     $email = $_POST["email"];
     $username = $_POST["username"];
+    $phone = $_POST["phone"];
+    // $des = $_POST["description"];
     
     $password = $_POST["password"];
     $cpassword = $_POST["cpassword"];
@@ -117,7 +119,7 @@ function createUser($data)/*creating user */{
     $gender = $_POST["gender"];
 
     if($password == $cpassword){
-        $sql_push = "INSERT INTO `users` (`fname`, `lname`, `username`, `password`, `email`, `gender`) VALUES ('$fname', '$lname', '$username', '$password', '$email', '$gender');";
+        $sql_push = "INSERT INTO `users` (`fname`, `lname`, `username`, `password`, `email`, `gender`, `phone`) VALUES ('$fname', '$lname', '$username', '$password', '$email', '$gender', '$phone');";
         // $result = mysqli_query($db, $sql_push);
         /// so much important return na korle function call kore expected result ashbe na
         return mysqli_query($db, $sql_push);
@@ -159,8 +161,10 @@ function updateInfo($data){
     $username = $_POST["username"];
     $password = $_POST["password"];
     $gender = $_POST["gender"];
+    $des = $_POST['description'];
+
    
-    $sql_push = "INSERT INTO `users` (`fname`, `lname`, `username`, `password`, `email`, `gender`) VALUES ('$fname', '$lname', '$username', '$password', '$email', '$gender');";
+    $sql_push = "INSERT INTO `users` (`fname`, `lname`, `username`, `password`, `email`, `gender`, `description`) VALUES ('$fname', '$lname', '$username', '$password', '$email', '$gender', '$des');";
     $result = mysqli_query($db, $sql_push);
     if ($result) {
         $regSucc = true;

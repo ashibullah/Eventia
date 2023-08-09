@@ -15,6 +15,7 @@ $lname = $row['lname'];
 $email = $row['email'];
 $username = $row['username'];
 $profession = $row['profession'];
+$des = $row['description'];
 $id = $row['id'];
 $facebook = $row['facebook'];
 $instagram = $row['insta'];
@@ -38,7 +39,7 @@ $instagram = $row['insta'];
                     <label for="formFile" class="form-label">Change Profile Picture</label>
                     <div class="d-flex align-items-center">
                     <input class="form-control" type="file" name="profile_pic" id="formFile">
-                        <button class="btn btn-primary" type="submit" name="upload">Upload</button>
+                        <button class="btn nav-link" type="submit" name="upload">Upload</button>
 
 
                     </div>
@@ -75,6 +76,11 @@ $instagram = $row['insta'];
                 
                     <label for="floatingInput"><i class="bi bi-camera2"></i> Profession</label>
                 </div>
+                <div class="form-floating mt-1">
+                 <textarea name="description" class="form-control rounded-0" placeholder="Description"><?php echo $des ?></textarea>
+               <label for="description"><i class="bi bi-chat-square-quote"></i>Description</label>
+                </div>
+
 
                 <div class="d-flex">
                 <div class="form-floating mt-1">
@@ -85,6 +91,7 @@ $instagram = $row['insta'];
                 <input type="text" name="insta" class="form-control rounded-0" placeholder="Instagram" value="<?php echo $instagram  ;?>" >
                         <label for="floatingInput"><i class="bi bi-instagram"></i>  Instagram</label>
                 </div>
+                
                 </div>
                 
 
@@ -106,3 +113,7 @@ $instagram = $row['insta'];
         </div>
 
     </div>
+
+
+
+    

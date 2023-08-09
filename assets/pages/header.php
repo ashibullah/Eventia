@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets\css\bootstrap.css">
     <link href="assets/css/custom.css" rel="stylesheet">
     <link href="assets/css/homestyle.css" rel="stylesheet">
+    <link href="assets/css/likeadobe.css" rel="stylesheet">
     <link rel="stylesheet" href="assets\bootstrap-icons-1.10.5\font\bootstrap-icons.css">
    
     

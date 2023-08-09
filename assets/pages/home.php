@@ -9,7 +9,7 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/collage.jpg" class="d-block w-100" alt="...">
+            <img src="img/signup.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Your moment in our lens</h5>
                 <p class="text-shadow">Through the lens, a world unseen unfolds, revealing the beauty of life in every frame.</p>
@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img src="img\eventdecor.jpg" class="d-block w-100" alt="...">
+            <img src="img/collage.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Visualizing Happiness</h5>
                 <p class="text-shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ullam eum quae incidunt
@@ -290,6 +290,7 @@ foreach (array_slice($users,0,8) as $user) {
 
    
 }
+echo ' <div class="col-lg-12">';
 echo'<ul>' .
         '<li class="text-center list-unstyled "><a class=" text-white text-decoration-none" href="?peoples">See
                 more</a>
@@ -297,5 +298,7 @@ echo'<ul>' .
     '</ul>';
     
 echo '</div>';
+echo '</div>';
+
 
 ?>

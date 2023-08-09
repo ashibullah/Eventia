@@ -1,57 +1,40 @@
-<div class="login">
-    <div class="col-4 bg-white border rounded p-4 shadow-sm">
-        <form method="POST" action="assets/php/actions.php?createpage" enctype="multipart/form-data">
-            <div class="d-flex justify-content-center">
+<div class="d-flex p-3 formseting ">
+<div class="pic col-lg-8">
+    <img src="img/createpage.jpg" alt="..." class="rounded-1" style="object-fit: cover; width: 130%; height: 100vh;">
+</div>
 
-                <a href="?home"> <img class="mb-4" src="assets/img/logo1.png" alt="" height="85"> </a>
+    
+    <div class="signup-container col-lg-4 mr-3">
+        <div class="logo">
+            <img src="assets/img/logo1.png" alt="Logo" height="45">
+        </div>
+        <h1 class="signup-heading">Create Page</h1>
+        <form class="signup-form" method="POST" action="assets/php/actions.php?createpage" enctype="multipart/form-data">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Page Name" required>
             </div>
-            <h1 class="h5 mb-3 fw-normal">Create Page</h1>
-            
-
-            <div class="form-floating mt-1">
-                <input type="text" name="name" class="form-control rounded-0" placeholder="username/email" required>
-                <label for="floatingInput">Page Name</label>
+            <div class="form-group">
+                <input type="text" name="phone" placeholder="Contact No" required>
             </div>
-
-
-            <div class="form-floating mt-1">
-                <input type="text" name="phone" class="form-control rounded-0" placeholder="username/email" required>
-                <label for="floatingInput">Contact No</label>
+            <div class="form-group">
+                <input type="text" name="facebook" placeholder="Facebook Page">
             </div>
-            <div class="form-floating mt-1">
-                <input type="text" name="facebook" class="form-control rounded-0" placeholder="username/email" >
-                <label for="floatingInput">Facebook Page</label>
+            <div class="form-group">
+                <input type="text" name="insta" placeholder="Instagram Profile">
             </div>
-            <div class="form-floating mt-1">
-                <input type="text" name="insta" class="form-control rounded-0" placeholder="username/email" >
-                <label for="floatingInput">Instagram Profile</label>
+            <div class="form-group">
+                <textarea class="form-group rounded-3" id="address" name="address" placeholder="Address" rows="2"></textarea>
             </div>
-            <div class="form-floating mt-1">
-                <textarea id="address" name="address" class="form-control rounded-0" placeholder="Address"
-                    rows="2"></textarea>
-                <label for="address">Address</label>
+            <div class="form-group">
+                <textarea class="form-group rounded-3" id="description" name="description" placeholder="Description" rows="3"></textarea>
             </div>
-            <div class="form-floating mt-1">
-                <textarea id="description" name="description" class="form-control rounded-0" placeholder="Description"
-                    rows="4"></textarea>
-                <label for="description">Description</label>
-            </div>
-            <div class="mb-6">
+            <div class="form-group">
                 <label for="formFile" class="form-label">Upload Page Picture</label>
-                <div class="d-flex align-items-center">
-                    <input class="form-control" type="file" name="pagedp" id="formFile">
-                    
-                </div>
+                <input class="form-control" type="file" name="pagedp" id="formFile">
             </div>
-            <div class="mt-3 d-flex justify-content-between align-items-center">
-                <button class="btn btn-primary" type="submit" name="createpage">Create Page</button>
+            <div class="form-group text-right">
+                <button class="btn nav-link" type="submit" name="createpage">Create Page</button>
             </div>
+        </form>
     </div>
-
-</div>
-
-
-
-</form>
-</div>
 </div>

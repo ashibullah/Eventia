@@ -21,7 +21,7 @@
 require_once 'functions.php';
 
 // For sign up
-if (isset($_POST['submit'])) {
+if (isset($_POST['signup'])) {
     if (createUser($_POST)) {
         header('Location: ../../?login');
         exit; // Terminate the script to ensure the redirect is executed

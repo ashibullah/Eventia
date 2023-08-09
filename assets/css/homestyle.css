@@ -28,6 +28,7 @@
     clip-path: circle(35% at 50% 50%);
 }
 
+
 p{
     font-size: small;
 }
@@ -80,7 +81,7 @@ p{
 
 .work {
     padding: 40px;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .picdetails {
@@ -171,16 +172,23 @@ p{
 
 .pageprofile{
 
-    height: 350px;
+    min-height: 350px;
     padding: 10px;
     background-color: #fff;
     border-radius: 20px;
-    text-align: center;
-
-
-    
+    text-align: center;    
 
 }
+.pageprofile2{
+
+    min-height: 300px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;    
+
+}
+
 .peopleprofile{
 
     height: 150px;
@@ -211,4 +219,24 @@ p{
 
   .content-container {
     margin-bottom: 60px; /* Adjust the value as per your preference */
+}
+
+
+
+
+
+.navbar {
+    background-color: #f8f9fa; /* Customize the background color */
+}
+.navbar-brand {
+    justify-content: center;
+}
+.navbar-toggler-icon {
+    background-color: #000; /* Customize the toggler icon color */
+}
+.nav-link {
+    color: #000; /* Customize the link color */
+}
+.nav-link:hover {
+    color: #007bff; /* Customize the link hover color */
 }

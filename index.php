@@ -32,7 +32,7 @@ elseif (isset($_GET['createpage'])) {
     showPage('header', ['title' => 'Create Page']);
     showPage('navbar');
     showPage('create_page');
-    showPage('footer2');
+    // showPage('footer2');
 }
 elseif (isset($_GET['createpage_by_admin'])) {
     showPage('header', ['title' => 'Create Page']);
@@ -43,19 +43,19 @@ elseif (isset($_GET['pages'])) {
     showPage('header', ['title' => 'Pages']);
     showPage('navbar');
     showPage('pages');
-    showPage('footer2');
+    // showPage('footer2');
 }
 elseif (isset($_GET['search'])) {
     showPage('header', ['title' => 'Search']);
     showPage('navbar');
     showPage('search');
-    showPage('footer2');
+    // showPage('footer2');
 }
 elseif (isset($_GET['peoples'])) {
     showPage('header', ['title' => 'Peoples']);
     showPage('navbar');
     showPage('peoples');
-    showPage('footer2');
+    // showPage('footer2');
 }
 elseif (isset($_GET['adminlogin'])) {
     showPage('header', ['title' => 'Admin Login']);
