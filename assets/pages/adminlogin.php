@@ -27,7 +27,7 @@
              echo '<div class="alert alert-danger" role="alert">
                   Invalid username or password!
                 </div>';
-            unset($_SESSION['showError']); // Reset the session variable
+            unset($_SESSION['showError']); 
             }
 ?>
 
